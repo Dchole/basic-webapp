@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Basic web app</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <a href="#main-content" id="skip-navigation">Skip Navigation</a>
+    <header>
+      <img
+        src="https://cdn.worldvectorlogo.com/logos/pitbull-syndicate-2-.svg"
+        alt="Logo"
+        class="logo"
+      />
+      <nav>
+        <ul class="links" hidden>
+          <li><a href="/">Home</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+        <ul class="auth">
+          <li><a href="/login">Sign in</a></li>
+          <li><a href="/register" class="button">Sign up</a></li>
+        </ul>
+      </nav>
+    </header>
+    <aside id="side-bar" aria-hidden>
+      <ul class="links">
+        <li><a href="/">Home</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="/contact">Contact</a></li>
+      </ul>
+    </aside>
+    <main id="main-content">
+      <section id="hero">
+        <div>
+          <h1>LOREM IPSUM</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque
+            dicta voluptatem excepturi, ducimus voluptatum doloribus.
+          </p>
+          <div class="cta">
+            <button>Call to action</button>
+          </div>
+        </div>
+        <div>
+          <img
+            src="https://plus.unsplash.com/premium_photo-1670333352025-017f69fa481c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60"
+            alt="cover image"
+          />
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
