@@ -11,3 +11,5 @@ LOGO?.addEventListener("click", () => {
     SIDE_BAR?.classList.add("open");
   }
 });
+
+// COMMENT
